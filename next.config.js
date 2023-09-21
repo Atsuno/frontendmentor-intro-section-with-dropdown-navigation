@@ -4,7 +4,7 @@
  * eg: https://github.com/Jaynarol/frontendmentor-3-column-preview-card-component
  * const REPO = 'frontendmentor-3-column-preview-card-component'
  */
-const REPO = 'MY-REPO-NAME'
+const REPO = 'frontendmentor-intro-section-with-dropdown-navigation'
 const nextConfig = {
   output: 'export'
 }
