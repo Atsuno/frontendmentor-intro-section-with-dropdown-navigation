@@ -1,6 +1,6 @@
 const Footer = () => (
   <footer className="text-center text-xs  [&_a]:text-alink">
-    <div className="flex w-screen flex-row justify-between px-5">
+    <div className="flex w-screen flex-row items-center justify-between px-5 py-10">
       <img className="h-3" src="./images/client-databiz.svg" alt="client databiz" />
       <img className="h-5" src="./images/client-audiophile.svg" alt="client audiophile" />
       <img className="h-3" src="./images/client-meet.svg" alt="client meet" />
