@@ -17,6 +17,7 @@ const config: Config = {
         accent: 'hsl(0, 0%, 98%)',
         neutral: 'hsl(0, 0%, 98%)',
         'base-100': 'hsl(0, 0%, 98%)',
+        info: 'hsl(228, 45%, 44%)',
       },
     }],
     darkTheme: 'mytheme',

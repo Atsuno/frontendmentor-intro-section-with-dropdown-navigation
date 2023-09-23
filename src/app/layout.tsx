@@ -16,7 +16,7 @@ const RootLayout = ({
   children: React.ReactNode
 }) => (
   <html lang="en">
-    <body className={epilogue.className}>{children}</body>
+    <body className={`${epilogue.className} flex justify-center`}>{children}</body>
   </html>
 )
 

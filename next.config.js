@@ -6,7 +6,8 @@
  */
 const REPO = 'frontendmentor-intro-section-with-dropdown-navigation'
 const nextConfig = {
-  output: 'export'
+  output: 'export',
+  images: { unoptimized: true }
 }
 
 if (process.env.NODE_ENV !== "development") {
