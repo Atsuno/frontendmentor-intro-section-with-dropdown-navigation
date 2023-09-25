@@ -70,8 +70,8 @@ const Header = () => (
             </label>
           </div>
 
-          <ul className="menu rounded-box bg-accent p-0">
-            <li>
+          <ul className="menu rounded-box gap-3 bg-accent p-0">
+            <li className="gap-3">
               <details>
                 <summary className="px-0 after:justify-self-start hover:bg-transparent">Features</summary>
                 <ul className="before:w-0">
