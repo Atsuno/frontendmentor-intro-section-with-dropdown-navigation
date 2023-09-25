@@ -1,6 +1,12 @@
+# live Demo
+
+https://atsuno.github.io/frontendmentor-intro-section-with-dropdown-navigation
+
+> challenge [CHALLENGE Intro section with dropdown navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/)
+
 # Frontend Mentor - Intro section with dropdown navigation
 
-![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Intro section with dropdown navigation coding challenge](./challenger/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 

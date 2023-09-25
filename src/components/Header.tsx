@@ -10,8 +10,8 @@ const Header = () => (
   <header className="flex w-full items-center justify-between gap-5 p-3 lg:justify-normal lg:px-10">
     <Image className="h-fit w-fit" width={84} height={27} src="./images/logo.svg" alt="Logo" />
 
-    <ul className="menu hidden w-full flex-row justify-between lg:flex ">
-      <li className="flex flex-row gap-5">
+    <ul className="menu hidden w-full flex-row justify-evenly lg:flex lg:justify-between ">
+      <li className="flex flex-row lg:gap-2">
         <details className="dropdown lg:dropdown-end">
           <summary className="btn btn-ghost content-center text-base font-normal normal-case hover:bg-transparent hover:text-primary">Features</summary>
           <ul className="menu dropdown-content z-[1] rounded-lg bg-base-100 p-3 shadow-2xl lg:w-max">
@@ -45,7 +45,7 @@ const Header = () => (
         <Link className="self-center text-base hover:bg-transparent hover:text-primary" href="/.">About</Link>
       </li>
 
-      <div className="flex flex-row gap-5">
+      <div className="flex flex-row gap-2 lg:gap-2">
         <button className="justify-center p-3 hover:text-primary lg:px-10" type="button">Login</button>
         <button className="justify-center rounded-xl border-2 border-secondary p-3 hover:border-primary hover:text-primary lg:px-10" type="button">Register</button>
       </div>
@@ -73,7 +73,7 @@ const Header = () => (
           <ul className="menu rounded-box bg-accent p-0">
             <li>
               <details>
-                <summary className="px-0 after:justify-self-start">Features</summary>
+                <summary className="px-0 after:justify-self-start hover:bg-transparent">Features</summary>
                 <ul className="before:w-0">
                   <li className="flex flex-row">
                     <p className="px-2 text-blue-500 hover:bg-transparent"><FaClipboardList /></p>
@@ -94,18 +94,18 @@ const Header = () => (
                 </ul>
               </details>
               <details>
-                <summary className="px-0 after:justify-self-start">Company</summary>
+                <summary className="px-0 after:justify-self-start hover:bg-transparent">Company</summary>
                 <ul className="before:w-0">
-                  <li><Link className="px-2" href="/.">History</Link></li>
-                  <li><Link className="px-2" href="/.">Our Team</Link></li>
-                  <li><Link className="px-2" href="/.">Blog</Link></li>
+                  <li><Link className="px-2 hover:bg-transparent" href="/.">History</Link></li>
+                  <li><Link className="px-2 hover:bg-transparent" href="/.">Our Team</Link></li>
+                  <li><Link className="px-2 hover:bg-transparent" href="/.">Blog</Link></li>
                 </ul>
               </details>
             </li>
-            <li><Link className="px-0" href="/.">Careers</Link></li>
-            <li><Link className="px-0" href="/.">About</Link></li>
-            <li><button className="justify-center p-3" type="button">Login</button></li>
-            <li><button className="justify-center rounded-xl border-2 border-secondary p-3" type="button">Register</button></li>
+            <li><Link className="px-0 hover:bg-transparent" href="/.">Careers</Link></li>
+            <li><Link className="px-0 hover:bg-transparent" href="/.">About</Link></li>
+            <li><button className="justify-center p-3 hover:bg-transparent" type="button">Login</button></li>
+            <li><button className="justify-center rounded-xl border-2 border-secondary p-3 hover:bg-transparent" type="button">Register</button></li>
           </ul>
         </div>
       </div>
